@@ -2,7 +2,19 @@
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
-// Your JavaScript code goes here!
+emptyHeart.addEventListener('click', function() {
+  mimicServerCall()
+  .then(response => {
+
+  })
+  .catch(error => {
+    
+  })
+  fullHeart.addEventListener('click', function() {
+
+  });
+});
+
 
 
 
